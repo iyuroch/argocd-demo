@@ -8,7 +8,7 @@ spec:
     namespace: argocd
     server: ''
   source:
-    path: argocd
+    path: applications
     repoURL: 'https://github.com/iyuroch/argocd-demo.git'
     targetRevision: HEAD
   project: default
