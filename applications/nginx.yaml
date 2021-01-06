@@ -7,7 +7,7 @@ spec:
     name: in-cluster
     namespace: argocd
   source:
-    path: .
+    path: 'nginx'
     repoURL: 'https://github.com/iyuroch/argocd-demo.git'
     targetRevision: HEAD
   project: default

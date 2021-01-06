@@ -6,7 +6,6 @@ spec:
   destination:
     name: in-cluster
     namespace: argocd
-    server: ''
   source:
     path: applications
     repoURL: 'https://github.com/iyuroch/argocd-demo.git'
