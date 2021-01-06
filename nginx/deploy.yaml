@@ -5,7 +5,7 @@ metadata:
     app: nginx-123
   name: nginx-123
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: nginx-123
